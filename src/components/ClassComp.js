@@ -23,8 +23,6 @@ function ClassComp(props) {
     const [err, setErr] = useState('')
     const { push } = useHistory()
 
-    console.log('class comp render')
-
     const isInstructor = localStorage.getItem('role') === 'instructor'
         && props.login === true
 

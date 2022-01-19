@@ -22,8 +22,6 @@ function App(props) {
     }
   }, [])
 
-  console.log('app renders')
-
   return (
     <div className="App">
 

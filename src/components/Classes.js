@@ -15,7 +15,6 @@ function Classes(props) {
     useEffect(() => {
         props.getClasses()
     }, [])
-    console.log('classes renders')
 
     const addClassBtn =
         localStorage.getItem('role') === 'instructor'

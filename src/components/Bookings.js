@@ -9,7 +9,6 @@ function Bookings(props) {
         props.getBookings(username)
     }, [])
 
-    console.log('bookings renders')
     return (
         <div className='bookings'>
             <div className='bookings-wrap'>

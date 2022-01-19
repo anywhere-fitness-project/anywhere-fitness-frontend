@@ -22,8 +22,6 @@ export default function Signup() {
     const [err, setErr] = useState('')
     const { push } = useHistory()
 
-    console.log('signup renders')
-
     const submit = e => {
         e.preventDefault()
         const newUser = {
